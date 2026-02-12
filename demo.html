@@ -7,7 +7,7 @@
     body { font-family: Arial, sans-serif; padding: 40px; background: #f5f5f5; }
     h1 { text-align: center; }
     .buttons { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 20px; }
-    button { padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 6px; border: none; background: #2196f3; color: white; transition: 0.2s; }
+    button { padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 6px; border: none; background: #2196f3; color: white; }
     button:hover { opacity: 0.9; }
   </style>
 </head>
@@ -20,23 +20,9 @@
   <button onclick="showme({ message:'Info!', type:'info' })">Info</button>
   <button onclick="showme({ message:'Warning!', type:'warning' })">Warning</button>
   <button onclick="showme({ message:'Error!', type:'error' })">Error</button>
-  <button onclick="showme({ 
-      customHTML: (() => { 
-        const d = document.createElement('div'); 
-        d.innerHTML = '<strong>Custom HTML</strong> inside notification'; 
-        return d; 
-      })(), 
-      duration: 6000 
-  })">Custom HTML</button>
+  <button onclick="showme({ customHTML: (() => { const d = document.createElement('div'); d.innerHTML = '<strong>Custom HTML</strong> inside notification'; return d; })(), duration: 6000 })">Custom HTML</button>
   <button onclick="showme({ message:'Persistent Notification', persistent:true })">Persistent</button>
-  <button onclick="showme({ 
-      message:'Action Button', 
-      actions:[{ text:'Undo', callback:()=>alert('Action undone!') }], 
-      duration:6000 
-  })">Action Button</button>
-
-  <!-- Duplicate-count test buttons -->
-  <button onclick="showme({ message:'Duplicate Test', type:'info', duration:3000 })">Duplicate Test</button>
+  <button onclick="showme({ message:'Action Button', actions:[{ text:'Undo', callback:()=>alert('Action undone!') }], duration:6000 })">Action Button</button>
 </div>
 
 <!-- Include showme.js via CDN -->
