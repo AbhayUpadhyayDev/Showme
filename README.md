@@ -1,6 +1,7 @@
 
 # showme.js 🚀
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://abhayupadhyaydev.github.io/Showme/demo.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AbhayUpadhyayDev/Showme?style=social)](https://github.com/AbhayUpadhyayDev/Showme/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/AbhayUpadhyayDev/Showme)](https://github.com/AbhayUpadhyayDev/Showme/issues)
