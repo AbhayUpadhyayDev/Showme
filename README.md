@@ -1,14 +1,12 @@
-Absolutely! We can make your `README.md` **more visually appealing and developer-friendly**, with badges, usage examples, and a metrics section. Here’s a polished version for your `showme.js` library:
 
----
-
-````markdown
 # showme.js 🚀
 
-[![NPM Version](https://img.shields.io/badge/npm-v1.0.0-blue)](https://www.npmjs.com/package/showme)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AbhayUpadhyayDev/Showme?style=social)](https://github.com/AbhayUpadhyayDev/Showme/stargazers)
-[![Issues](https://img.shields.io/github/issues/AbhayUpadhyayDev/Showme)](https://github.com/AbhayUpadhyayDev/Showme/issues)
+[![GitHub issues](https://img.shields.io/github/issues/AbhayUpadhyayDev/Showme)](https://github.com/AbhayUpadhyayDev/Showme/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/AbhayUpadhyayDev/Showme)](https://github.com/AbhayUpadhyayDev/Showme/graphs/contributors)
+[![jsDelivr hits](https://img.shields.io/jsdelivr/gh/hm/AbhayUpadhyayDev/Showme)](https://www.jsdelivr.com/package/gh/AbhayUpadhyayDev/Showme)
+[![jsDelivr CDN](https://img.shields.io/jsdelivr/gh/l/AbhayUpadhyayDev/Showme)](https://www.jsdelivr.com/package/gh/AbhayUpadhyayDev/Showme)
 
 > A lightweight, customizable, dependency-free JavaScript notification library for toast-style messages.
 
@@ -16,14 +14,13 @@ Absolutely! We can make your `README.md` **more visually appealing and developer
 
 ## Features ✨
 
-- ✅ Pure JavaScript (no dependencies)
-- ✅ Types: `success`, `info`, `warning`, `error`
-- ✅ Fully customizable:
-  - Duration, position, colors, border radius
-  - Optional custom HTML content
-  - Action buttons with callbacks
-- ✅ Persistent notifications
-- ✅ Swipe-to-dismiss support on touch devices
+- ✅ Pure JavaScript (no dependencies)  
+- ✅ Notification types: `success`, `info`, `warning`, `error`  
+- ✅ Fully customizable: duration, position, colors, border radius  
+- ✅ Optional custom HTML content  
+- ✅ Action buttons with callbacks  
+- ✅ Persistent notifications  
+- ✅ Swipe-to-dismiss on touch devices  
 - ✅ Limit of 5 active notifications (configurable)
 
 ---
@@ -33,7 +30,7 @@ Absolutely! We can make your `README.md` **more visually appealing and developer
 ### Include via CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/AbhayUpadhyayDev/Showme/showme.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/AbhayUpadhyayDev/Showme@1.0.0/showme.min.js"></script>
 ````
 
 Or locally:
@@ -44,7 +41,7 @@ Or locally:
 
 ---
 
-### Examples
+## Usage Examples
 
 **Basic Notification**
 
@@ -55,10 +52,10 @@ showme({ message: 'Hello World!' });
 **Success Notification**
 
 ```js
-showme({ message: 'Data saved!', type: 'success', duration: 5000 });
+showme({ message: 'Data saved successfully!', type: 'success', duration: 5000 });
 ```
 
-**Action Button Notification**
+**Notification with Action Button**
 
 ```js
 showme({
@@ -70,7 +67,7 @@ showme({
 });
 ```
 
-**Custom HTML**
+**Custom HTML Content**
 
 ```js
 const content = document.createElement('div');
@@ -79,7 +76,7 @@ content.innerHTML = '<strong>Custom HTML</strong> <em>inside notification</em>';
 showme({ customHTML: content, duration: 6000 });
 ```
 
-**Callbacks & Persistent**
+**Callbacks & Persistent Notifications**
 
 ```js
 showme({
@@ -116,13 +113,11 @@ showme({
 
 ## Metrics 📊
 
-[![jsDelivr Hits](https://data.jsdelivr.com/v1/package/gh/AbhayUpadhyayDev/Showme/badge)](https://www.jsdelivr.com/package/gh/AbhayUpadhyayDev/Showme)
-[![GitHub repo size](https://img.shields.io/github/repo-size/AbhayUpadhyayDev/Showme)](https://github.com/AbhayUpadhyayDev/Showme)
-[![GitHub contributors](https://img.shields.io/github/contributors/AbhayUpadhyayDev/Showme)](https://github.com/AbhayUpadhyayDev/Showme/graphs/contributors)
+* GitHub Stars, Issues, and Contributors
+* jsDelivr monthly hits
+* CDN latest version via jsDelivr
 
-* GitHub stars, forks, issues
-* jsDelivr CDN hits for usage tracking
-* Repo size & contributors info
+Badges above reflect live stats and updates automatically.
 
 ---
 
