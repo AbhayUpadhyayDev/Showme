@@ -111,16 +111,6 @@ showme({
 
 ---
 
-## Metrics 📊
-
-* GitHub Stars, Issues, and Contributors
-* jsDelivr monthly hits
-* CDN latest version via jsDelivr
-
-Badges above reflect live stats and updates automatically.
-
----
-
 ## License 📝
 
 MIT License — free to use, modify, and distribute.
