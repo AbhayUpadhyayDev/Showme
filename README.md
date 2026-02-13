@@ -1,11 +1,11 @@
 # showme.js 🚀
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://abhayupadhyaydev.github.io/Showme/demo.html)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)  
-[![GitHub stars](https://img.shields.io/github/stars/AbhayUpadhyayDev/Showme?style=social)](https://github.com/AbhayUpadhyayDev/Showme/stargazers)  
-[![GitHub issues](https://img.shields.io/github/issues/AbhayUpadhyayDev/Showme)](https://github.com/AbhayUpadhyayDev/Showme/issues)  
-[![GitHub contributors](https://img.shields.io/github/contributors/AbhayUpadhyayDev/Showme)](https://github.com/AbhayUpadhyayDev/Showme/graphs/contributors)  
-[![jsDelivr hits](https://img.shields.io/jsdelivr/gh/hm/AbhayUpadhyayDev/Showme)](https://www.jsdelivr.com/package/gh/AbhayUpadhyayDev/Showme)  
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://abhayupadhyaydev.github.io/Showme/demo.html) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE) 
+[![GitHub stars](https://img.shields.io/github/stars/AbhayUpadhyayDev/Showme?style=social)](https://github.com/AbhayUpadhyayDev/Showme/stargazers) 
+[![GitHub issues](https://img.shields.io/github/issues/AbhayUpadhyayDev/Showme)](https://github.com/AbhayUpadhyayDev/Showme/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/AbhayUpadhyayDev/Showme)](https://github.com/AbhayUpadhyayDev/Showme/graphs/contributors) 
+[![jsDelivr hits](https://img.shields.io/jsdelivr/gh/hm/AbhayUpadhyayDev/Showme)](https://www.jsdelivr.com/package/gh/AbhayUpadhyayDev/Showme) 
 [![jsDelivr CDN](https://img.shields.io/jsdelivr/gh/l/AbhayUpadhyayDev/Showme)](https://www.jsdelivr.com/package/gh/AbhayUpadhyayDev/Showme)
 
 > A lightweight, fully customizable, dependency-free JavaScript library for notifications, OTP input, confirm dialogs, and loading spinners.
