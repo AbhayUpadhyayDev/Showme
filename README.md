@@ -34,7 +34,7 @@
 ### Include via CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/AbhayUpadhyayDev/Showme@v1.0.1/showme.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/AbhayUpadhyayDev/Showme@v1.0.2/showme.min.js"></script>
 ```
 
 Or locally:
