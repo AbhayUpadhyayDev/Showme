@@ -887,6 +887,7 @@ window.showme.fab = function({
 }={}) {
     const fab = document.createElement('button');
     fab.innerHTML = icon;
+    
     fab.style.cssText = `
         position:fixed; bottom:${bottom}px; right:${right}px; width:${size}px; height:${size}px;
         border:none; border-radius:50%; background:${bgColor}; color:${textColor};
